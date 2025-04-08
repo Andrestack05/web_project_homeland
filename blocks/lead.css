@@ -1,0 +1,32 @@
+.lead{
+display:flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+margin: 0 auto 0;
+}
+
+.lead__title{
+margin: 90px auto 0;
+max-width: 720px;
+font-weight: 900;
+font-size: 6rem;
+line-height: 100px;
+text-align: center;
+
+}
+
+.lead__subtitle{
+max-width: 720px;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+margin: 32px auto 0;
+}
+
+.lead__image{
+width: 100%;
+margin: 64px 0 0;
+}
+

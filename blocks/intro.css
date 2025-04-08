@@ -1,0 +1,40 @@
+.intro{
+  max-width: 830px;
+}
+
+.intro__title{
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 3.4rem;
+  line-height: 58px;
+  margin: 92px 154px 0 0;
+}
+
+.intro__text{
+width: 738px;
+font-family: "Inter", Arial, sans-serif;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 34px;
+margin: 40px 246px 0 0;
+text-align:justify;
+}
+
+.intro__author{
+  width: 738px;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 34px;
+  text-align: right;
+  margin: 10px 6px 0 0;
+}
+
+.intro__text-description{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 163%;
+  margin: 32px 10px 0 0;
+}
