@@ -1,10 +1,10 @@
-.footer{
+.footer {
   max-width: 985px;
   padding: 92px 148px 24px;
   display: flex;
   justify-content: center;
 }
-.footer__copyright{
+.footer__copyright {
   font-family: Inter;
   font-weight: 400;
   font-size: 0.9rem;
@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 544px) {
- .footer{
-  padding-top: 64px;
- }
+  .footer {
+    padding-top: 64px;
+  }
 }
