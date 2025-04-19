@@ -1,0 +1,70 @@
+.colombia{
+  display: grid;
+  max-height: 756px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 152px repeat(2, 1fr) 48px;
+  margin: 80px 0 0;
+}
+
+.colombia__title{
+  margin: 0;
+max-width: 460px;
+font-weight: 900;
+font-size: 4.5rem;
+line-height: 76px;
+grid-column: 1;
+grid-row: 1/2;
+}
+
+.colombia__image{
+  margin: 48px 0 0;
+max-width: 460px;
+width: 100%;
+max-height: 460px;
+box-shadow: 10px 10px 25px 0px #00000080;
+grid-column: 1;
+grid-row: 2/4;
+}
+
+.colombia__website{
+margin-top: auto;
+max-width: 456px;
+display: flex;
+flex-direction: column;
+}
+
+.colombia__website_title{
+  color:#AAAAAA;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
+
+.colombia__website_artist{
+text-decoration: none;
+color:white;
+}
+
+.colombia__description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+
+}
+
+.colombia__description-top{
+  margin: 48px 0 0;
+}
+
+.colombia__description-bottom{
+  margin: 25px 0 0;
+}
+
+.colombia__button{
+  margin:0;
+  grid-column: 1;
+  grid-row: 4/5;
+}
