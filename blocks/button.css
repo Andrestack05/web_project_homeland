@@ -1,0 +1,10 @@
+.button{
+  color:white;
+  width: 289px;
+height: 48px;
+border-radius: 4px;
+padding: 13px 20px;
+gap: 10px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+box-shadow: 5px 5px 10px 0px #00000040;
+}
