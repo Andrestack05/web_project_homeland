@@ -1,7 +1,13 @@
-.places{
-max-width: 987px;
-padding-top: 97px;
-display: block;
-margin: 0 auto;
-column-gap: 40px;
+.places {
+  max-width: 987px;
+  padding-top: 97px;
+  display: block;
+  margin: 0 auto;
+  column-gap: 40px;
+}
+
+@media (max-width: 665px) {
+  .places {
+    padding-top: 62px;
+  }
 }

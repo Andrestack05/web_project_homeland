@@ -1,41 +1,45 @@
-.burundi{
+.burundi {
   margin: 80px 0 0;
   display: grid;
-  max-height: 859px;
+  height: auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 152px repeat(3, 1fr) ;
+  grid-template-rows: 152px repeat(3, auto);
 }
 
-.burundi__title{
+.burundi__title {
   margin: 0;
-max-width: 460px;
-font-weight: 900;
-font-size: 4.5rem;
-line-height: 76px;
-grid-column: 1;
-grid-row: 1/2;
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 76px;
+  grid-column: 1;
+  grid-row: 1/2;
 }
 
-.burundi__image{
+.burundi__image {
   margin: 48px 0 0;
-max-width: 460px;
-max-height: 460px;
-box-shadow: 10px 10px 25px 0px #00000080;
-grid-column: 1;
-grid-row: 2/4;
+  max-width: 460px;
+  height: auto;
+
+  grid-column: 1;
+  grid-row: 2/4;
 }
 
-.burundi__website{
-margin-top: auto;
-max-width: 456px;
-display: flex;
-flex-direction: column;
-grid-column: 2;
-grid-row: 1;
+.burundi__image:hover {
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.burundi__website_title{
-  color:#AAAAAA;
+.burundi__website {
+  margin-top: auto;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.burundi__website_title {
+  color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 100%;
@@ -43,38 +47,119 @@ grid-row: 1;
   text-transform: uppercase;
 }
 
-.burundi__website_artist{
-text-decoration: none;
-color:white;
+.burundi__website_artist {
+  text-decoration: none;
+  color: white;
 }
 
-.burundi__description{
+.burundi__description {
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   letter-spacing: 0%;
 }
 
-.burundi__description-top{
+.burundi__description-top {
   margin: 48px 0 0;
   grid-column: 2;
-grid-row: 2/3;
+  grid-row: 2/3;
 }
 
-.burundi__description-center{
+.burundi__description-center {
   margin: 25px 0 0;
   grid-column: 2;
-grid-row: 3/4;
+  grid-row: 3/4;
 }
 
-.burundi__description-bottom{
+.burundi__description-bottom {
   margin: 25px 0 0;
   grid-column: 2;
-grid-row: 4/5;
+  grid-row: 4/5;
 }
 
-.burundi__button{
-  margin: 100px 0 auto;
+.burundi__button {
+  margin: 48px 0 auto;
   grid-column: 1;
   grid-row: 4/5;
+}
+
+@media (max-width: 999px) {
+  .burundi {
+    grid-template-rows: repeat(3, auto);
+    padding: 0 20px;
+  }
+  .burundi__title {
+    margin-top: auto;
+    max-width: 340px;
+    font-size: 2.6rem;
+    line-height: 46px;
+  }
+  .burundi__image {
+    margin: 48px 0;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .burundi__button {
+    margin-top: 0;
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .burundi__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .burundi {
+    column-gap: 20px;
+  }
+  .burundi__button {
+    margin: 160px 0 0;
+    grid-row: 3;
+  }
+}
+
+@media (max-width: 665px) {
+  .burundi {
+    margin: 50px 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+  }
+
+  .burundi__title {
+    margin: 0;
+  }
+  .burundi__website {
+    grid-column: 1;
+    grid-row: 2/3;
+    margin-top: 30px;
+  }
+
+  .burundi__image {
+    grid-row: 3/5;
+    margin: 30px auto 0;
+  }
+
+  .burundi__description-top {
+    grid-column: 1;
+    grid-row: 5;
+    margin: 30px 0 0;
+  }
+
+  .burundi__description-center {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .burundi__description-bottom {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .burundi__button {
+    margin: 30px 0 0;
+    grid-row: 8;
+  }
 }

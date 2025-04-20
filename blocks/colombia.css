@@ -1,40 +1,43 @@
-.colombia{
+.colombia {
   display: grid;
-  max-height: 756px;
+  height: auto;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 152px repeat(2, 1fr) 48px;
   margin: 80px 0 0;
 }
 
-.colombia__title{
+.colombia__title {
   margin: 0;
-max-width: 460px;
-font-weight: 900;
-font-size: 4.5rem;
-line-height: 76px;
-grid-column: 1;
-grid-row: 1/2;
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 76px;
+  grid-column: 1;
+  grid-row: 1/2;
 }
 
-.colombia__image{
+.colombia__image {
   margin: 48px 0 0;
-max-width: 460px;
-width: 100%;
-max-height: 460px;
-box-shadow: 10px 10px 25px 0px #00000080;
-grid-column: 1;
-grid-row: 2/4;
+  max-width: 460px;
+  width: 100%;
+  height: auto;
+  grid-column: 1;
+  grid-row: 2/4;
 }
 
-.colombia__website{
-margin-top: auto;
-max-width: 456px;
-display: flex;
-flex-direction: column;
+.colombia__image:hover {
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
-.colombia__website_title{
-  color:#AAAAAA;
+.colombia__website {
+  margin-top: auto;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+}
+
+.colombia__website_title {
+  color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 100%;
@@ -42,29 +45,91 @@ flex-direction: column;
   text-transform: uppercase;
 }
 
-.colombia__website_artist{
-text-decoration: none;
-color:white;
+.colombia__website_artist {
+  text-decoration: none;
+  color: white;
 }
 
-.colombia__description{
+.colombia__description {
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   letter-spacing: 0%;
-
 }
 
-.colombia__description-top{
+.colombia__description-top {
   margin: 48px 0 0;
 }
 
-.colombia__description-bottom{
+.colombia__description-bottom {
   margin: 25px 0 0;
 }
 
-.colombia__button{
-  margin:0;
+.colombia__button {
+  margin: 0;
   grid-column: 1;
   grid-row: 4/5;
+}
+
+@media (max-width: 999px) {
+  .colombia {
+    grid-template-rows: repeat(3, auto);
+    padding: 0 20px;
+  }
+  .colombia__title {
+    margin-top: auto;
+    max-width: 340px;
+    font-size: 2.6rem;
+    line-height: 46px;
+  }
+  .colombia__image {
+    margin: 48px 0;
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .colombia__button {
+    margin-top: 200px;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .colombia__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .colombia {
+    column-gap: 20px;
+  }
+  .colombia__button {
+    margin: 20px 0 0;
+    grid-row: 3;
+  }
+}
+
+@media (max-width: 665px) {
+  .colombia {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+  }
+
+  .colombia__website {
+    grid-row: 2/3;
+    margin-top: 30px;
+  }
+
+  .colombia__image {
+    margin: 30px auto 0;
+    grid-row: 3/5;
+  }
+  .colombia__description-top {
+    margin: 30px 0 0;
+  }
+
+  .colombia__button {
+    grid-row: 7;
+    margin: 30px 0 0;
+  }
 }
