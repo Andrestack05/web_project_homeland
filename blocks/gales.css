@@ -21,10 +21,11 @@
   height: auto;
   grid-column: 1;
   grid-row: 2/4;
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .gales__image:hover {
-  box-shadow: 10px 10px 25px 0px #00000080;
+ opacity: 0.5;
 }
 
 .gales__website {
