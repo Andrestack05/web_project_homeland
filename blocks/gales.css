@@ -34,16 +34,15 @@
   flex-direction: column;
 }
 
-.gales__website_title {
+.gales__website-title {
   color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 100%;
-  letter-spacing: 12%;
   text-transform: uppercase;
 }
 
-.gales__website_artist {
+.gales__website-artist {
   text-decoration: none;
   color: white;
 }
@@ -52,7 +51,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  letter-spacing: 0%;
 }
 
 .gales__description-top {
