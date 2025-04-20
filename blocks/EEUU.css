@@ -34,7 +34,7 @@
   flex-direction: column;
 }
 
-.EEUU__website_title {
+.EEUU__website-title {
   color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
@@ -42,7 +42,7 @@
   text-transform: uppercase;
 }
 
-.EEUU__website_artist {
+.EEUU__website-artist {
   text-decoration: none;
   color: white;
 }

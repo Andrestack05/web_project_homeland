@@ -38,7 +38,7 @@
   grid-row: 1;
 }
 
-.burundi__website_title {
+.burundi__website-title {
   color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
@@ -46,7 +46,7 @@
   text-transform: uppercase;
 }
 
-.burundi__website_artist {
+.burundi__website-artist {
   text-decoration: none;
   color: white;
 }

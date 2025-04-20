@@ -36,7 +36,7 @@
   flex-direction: column;
 }
 
-.colombia__website_title {
+.colombia__website-title {
   color: #aaaaaa;
   font-weight: 400;
   font-size: 0.8rem;
@@ -44,7 +44,7 @@
   text-transform: uppercase;
 }
 
-.colombia__website_artist {
+.colombia__website-artist {
   text-decoration: none;
   color: white;
 }
