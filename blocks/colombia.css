@@ -132,3 +132,30 @@ opacity: 0.5;
     margin: 30px 0 0;
   }
 }
+
+@media (max-width: 390px) {
+
+  .colombia{
+    padding: 0;
+  }
+
+  .colombia__title {
+    font-size:32px;
+    padding: 0 10px;
+  }
+  .colombia__website {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .colombia__image{
+    padding: 0;
+    width: 95%;
+  }
+  .colombia__button{
+    margin: 30px auto 0;
+  }
+
+  .colombia__description {
+   padding: 0 10px;
+  }
+}

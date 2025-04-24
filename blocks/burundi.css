@@ -161,3 +161,30 @@ opacity: 0.5;
     grid-row: 8;
   }
 }
+
+@media (max-width: 390px) {
+
+  .burundi{
+    padding: 0;
+  }
+
+  .burundi__title {
+    font-size:32px;
+    padding: 0 10px;
+  }
+  .burundi__website {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .burundi__image{
+    padding: 0;
+    width: 95%;
+  }
+  .burundi__button{
+    margin: 30px auto 0;
+  }
+
+  .burundi__description {
+   padding: 0 10px;
+  }
+}

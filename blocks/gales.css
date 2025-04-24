@@ -134,3 +134,30 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 390px) {
+
+  .gales{
+    padding: 0;
+  }
+
+  .gales__title {
+    font-size:32px;
+    padding: 0 10px;
+  }
+  .gales__website {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .gales__image{
+    padding: 0;
+    width: 95%;
+  }
+  .gales__button{
+    margin: 30px auto 0;
+  }
+
+  .gales__description {
+   padding: 0 10px;
+  }
+}
